@@ -55,16 +55,16 @@
         <div class="flex space-x-4">
           <div class="w-1/2">
             <label for="firstName" class="block text-sm font-medium text-gray-700">First Name</label>
-            <input type="text" id="firstName" name="firstName" class="mt-1 p-2 w-full border rounded-md">
+            <input type="text" id="firstName"  required name="firstName" class="mt-1 p-2 w-full border rounded-md">
           </div>
           <div class="w-1/2">
             <label for="lastName" class="block text-sm font-medium text-gray-700">Last Name</label>
-            <input type="text" id="lastName" name="lastName" class="mt-1 p-2 w-full border rounded-md">
+            <input type="text" id="lastName" required name="lastName" class="mt-1 p-2 w-full border rounded-md">
           </div>
         </div>
         <div class="mb-6">
           <label for="gender" class="block text-sm font-medium text-gray-700">Gender</label>
-          <select id="gender" name="gender" class="mt-1 p-2 w-full border rounded-md">
+          <select id="gender" name="gender" required class="mt-1 p-2 w-full border rounded-md">
             <option value="male">MALE</option>
             <option value="female">FEMALE</option>
             <option value="others">OTHERS</option>
@@ -72,17 +72,17 @@
         </div>
         <div class="mb-6">
           <label for="dob" class="block text-sm font-medium text-gray-700">Date of Birth</label>
-          <input type="date" id="dob" name="dob" class="w-full rounded-md border border-gray-300 px-3 py-2 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+          <input type="date" id="dob" name="dob" required class="w-full rounded-md border border-gray-300 px-3 py-2 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
         </div>
 
         <div class="flex space-x-4">
           <div class="w-1/2">
             <label for="matric" class="block text-sm font-medium text-gray-700">Matric Number</label>
-            <input type="text" id="matric" name="matric" class="mt-1 p-2 w-full border rounded-md">
+            <input type="text" id="matric" name="matric" required class="mt-1 p-2 w-full border rounded-md">
           </div>
           <div class="w-1/2">
             <label for="modeOfEntry" class="block text-sm font-medium text-gray-700">Mode of Entry</label>
-            <select id="modeOfEntry" name="modeOfEntry" class="mt-1 p-2 w-full border rounded-md">
+            <select id="modeOfEntry" name="modeOfEntry" required class="mt-1 p-2 w-full border rounded-md">
               <option value="UTME">UTME</option>
               <option value="DE">DE</option>
               <option value="others">OTHERS</option>
@@ -92,23 +92,23 @@
 
         <div class="mb-6">
           <label for="age" class="block text-sm font-medium text-gray-700">Age</label>
-          <input type="text" id="age" name="age" class="w-full rounded-md border border-gray-300 px-3 py-2 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+          <input type="text" id="age" name="age" required class="w-full rounded-md border border-gray-300 px-3 py-2 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
         </div>
 
         <div class="flex space-x-4">
           <div class="w-1/2">
             <label for="yearOfEntry" class="block text-sm font-medium text-gray-700">Year of Entry</label>
-            <input type="text" id="yearOfEntry" name="yearOfEntry" class="mt-1 p-2 w-full border rounded-md">
+            <input type="text" id="yearOfEntry" name="yearOfEntry" required class="mt-1 p-2 w-full border rounded-md">
           </div>
           <div class="w-1/2">
             <label for="level" class="block text-sm font-medium text-gray-700">Academic Level</label>
-            <input type="text" id="level" name="level" class="mt-1 p-2 w-full border rounded-md">
+            <input type="text" id="level" name="level" required class="mt-1 p-2 w-full border rounded-md">
           </div>
         </div>
 
             <div class="mb-6">
               <label for="faculty" class="block text-sm font-medium text-gray-700">Faculty</label>
-              <select id="faculty" name="faculty" class="mt-1 p-2 w-full border rounded-md">
+              <select id="faculty" name="faculty" required class="mt-1 p-2 w-full border rounded-md">
                 <option value="arts">Arts</option>
                 <option value="sciences">Sciences</option>
                 <option value="law">Law</option>
@@ -125,43 +125,43 @@
 
           <div class="mb-6">
             <label for="department" class="block text-sm font-medium text-gray-700">Department</label>
-            <input type="text" id="department" name="department" class="mt-1 p-2 w-full border rounded-md">
+            <input type="text" id="department" name="department" required class="mt-1 p-2 w-full border rounded-md">
           </div>
 
         <div class="mb-6">
           <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
-          <input type="text" id="email" name="email" class="w-full rounded-md border border-gray-300 px-3 py-2 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+          <input type="email" id="email" name="email" required class="w-full rounded-md border border-gray-300 px-3 py-2 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
         </div>
         <div class="mb-6">
           <label for="password" class="block text-sm font-medium text-gray-700">Preferred Password</label>
-          <input type="password" id="password" name="password" class="w-full rounded-md border border-gray-300 px-3 py-2 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+          <input type="password" id="password" name="password" required class="w-full rounded-md border border-gray-300 px-3 py-2 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
         </div>
         <div class="flex space-x-4">
           <div class="w-1/2">
             <label for="stateOfOrigin" class="block text-sm font-medium text-gray-700">State of Origin</label>
-            <input type="text" id="stateOfOrigin" name="stateOfOrigin" class="mt-1 p-2 w-full border rounded-md">
+            <input type="text" id="stateOfOrigin" name="stateOfOrigin" required class="mt-1 p-2 w-full border rounded-md">
           </div>
           <div class="w-1/2">
             <label for="phoneNumber" class="block text-sm font-medium text-gray-700">Phone Number</label>
-            <input type="text" id="phoneNumber" name="phoneNumber" class="mt-1 p-2 w-full border rounded-md">
+            <input type="text" id="phoneNumber" name="phoneNumber" required class="mt-1 p-2 w-full border rounded-md">
           </div>
         </div>
         <div class="mb-6">
           <label for="homeAddress" class="block text-sm font-medium text-gray-700">Home/Residential Address</label>
-          <input type="text" id="homeAddress" name="homeAddress" class="w-full rounded-md border border-gray-300 px-3 py-2 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+          <input type="text" id="homeAddress" name="homeAddress" required class="w-full rounded-md border border-gray-300 px-3 py-2 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
         </div>
         <div class="mb-6">
           <label for="localGovernment" class="block text-sm font-medium text-gray-700">Local Government Area</label>
-          <input type="text" id="localGovernment" name="localGovernment" class="w-full rounded-md border border-gray-300 px-3 py-2 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
+          <input type="text" id="localGovernment" name="localGovernment" required class="w-full rounded-md border border-gray-300 px-3 py-2 focus:outline-none focus:ring-indigo-500 focus:border-indigo-500">
         </div>
         <div class="flex space-x-4">
           <div class="w-1/2">
             <label for="parentPhoneNumber" class="block text-sm font-medium text-gray-700">Parent/Guardian Phone No</label>
-            <input type="text" id="parentPhoneNumber" name="parentPhoneNumber" class="mt-1 p-2 w-full border rounded-md">
+            <input type="text" id="parentPhoneNumber" name="parentPhoneNumber" required class="mt-1 p-2 w-full border rounded-md">
           </div>
           <div class="w-1/2">
             <label for="medicalId" class="block text-sm font-medium text-gray-700">Medical Id</label>
-            <input type="text" id="medicalId" name="medicalId" class="mt-1 p-2 w-full border rounded-md">
+            <input type="text" id="medicalId" name="medicalId" required class="mt-1 p-2 w-full border rounded-md">
           </div>
         </div> <br> <br>
 
